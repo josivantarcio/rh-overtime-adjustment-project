@@ -12,7 +12,6 @@ public class Worker {
 	private String name;
 	private WorkerLevel level;
 	private Double baseSalary;
-	DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("MM/yyyy");
 
 	private Department department;
 	private List<HourContract> contracts = new ArrayList<>();
@@ -76,7 +75,7 @@ public class Worker {
 	 * @param month o mês para o qual calcular a renda (1-12).
 	 * @return a renda total do funcionário no ano e mês especificados.
 	 */
-	public Double income(int year, int month) {
+	public double income(int year, int month) {
         double sum = getBaseSalary();
 
         for (HourContract c : contracts) {
