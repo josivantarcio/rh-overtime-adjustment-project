@@ -1,6 +1,6 @@
 ### Overtime Adjustment Project
 
-Welcome to the Overtime Adjustment Project! This project is designed to manage employee overtime contracts and calculate their monthly income based on these contracts. The application is built using Java 21.
+Welcome to the Overtime Adjustment Project! This project is designed to manage employee overtime contracts and calculate their monthly income based on these contracts. The application is built using Java 21 LTS.
 
 #### Project Repository
 - **Link:** [Overtime Adjustment Project](https://github.com/josivantarcio/rh-overtime-adjustment-project)
